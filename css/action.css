@@ -1,0 +1,20 @@
+.post-header a:hover,.categories a:hover,.pop-content a:hover,.archives a:hover{
+color: #84c7ff;
+transition: all .3s ease-out;
+}
+.post-content img:hover{
+    opacity: 0.4;
+    transition: all .3s linear;
+    cursor: pointer;
+}
+.post-content button:hover,.tags a:hover{
+    background-color: #07a1ce;
+    color: white;
+    transition: all .5s;
+}
+.btn-group ul li a:hover:not(.active){
+    background-color: #666666;
+    color: white;
+    transition: all .5s;
+    border-color: #666666;
+}
